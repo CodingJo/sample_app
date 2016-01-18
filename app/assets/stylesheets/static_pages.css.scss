@@ -38,6 +38,9 @@ html, body {
 .content {
   margin: 0 1em 0 4em;
 }
+img.image-responsive {
+  display: inline-block;
+}
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
