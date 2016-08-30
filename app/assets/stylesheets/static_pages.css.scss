@@ -1,0 +1,64 @@
+// Place all the styles related to the static_pages controller here.
+body {
+  position: relative;
+}
+.navbar {
+  background: #38126E;
+  font-family: Ubuntu, Courier, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #777;
+}
+h1 {
+  font-family: Ubuntu, Courier, Georgia, Times, 'Times New Roman', serif;
+  color: #777;
+  font-weight: 400;
+  font-size: 2.5em;
+  text-align: center;
+}
+h2 {
+  font-family: Ubuntu, Courier, Georgia, Times, 'Times New Roman', serif;
+  color: #38126E;
+  font-weight: 300;
+  font-size: 2em;
+  text-align: center;
+}
+p {
+  font-family: Ubuntu, Courier, Georgia, Times, 'Times New Roman', serif;
+  color: #38126E;
+  font-weight: 200;
+  font-size: 1em;
+}
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.content {
+  margin: 0 1em 0 4em;
+}
+.image-responsive {
+  display: inline-block;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -60px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 60px; 
+}
+.site-footer {
+  color: #777;
+  font-family: Ubuntu, Courier, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-seize: 1.5em;
+  background: #38126E;
+}
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
